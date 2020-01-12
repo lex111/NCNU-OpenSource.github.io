@@ -1,0 +1,1712 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Week 01(2018/09/20) - Linux Basic · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="Week2, 9_27 LSA.html" />
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    1072 LSA
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../1072/Week3, 03_07 LSA.html">
+            
+                <a href="../1072/Week3, 03_07 LSA.html">
+            
+                    
+                    Week 03(2019/03/07) - System log / Env var
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../1072/Week4, 03_14 LSA.html">
+            
+                <a href="../1072/Week4, 03_14 LSA.html">
+            
+                    
+                    Week 04(2019/03/14) - Disk
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../1072/Week5,  03_21 LSA.html">
+            
+                <a href="../1072/Week5,  03_21 LSA.html">
+            
+                    
+                    Week 05(2019/03/21) - SSH / IPv4, IPv6
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../1072/Week6, 03_28 LSA.html">
+            
+                <a href="../1072/Week6, 03_28 LSA.html">
+            
+                    
+                    Week 06(2019/03/28) - DVWA
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../1072/Week8, 04_11 LSA.html">
+            
+                <a href="../1072/Week8, 04_11 LSA.html">
+            
+                    
+                    Week 08(2019/04/11) - Security
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../1072/Week9, 04_18 LSA.html">
+            
+                <a href="../1072/Week9, 04_18 LSA.html">
+            
+                    
+                    Week 09(2019/04/18) - Virtual Memory
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../1072/Week10, 04_25 LSA.html">
+            
+                <a href="../1072/Week10, 04_25 LSA.html">
+            
+                    
+                    Week 10(2019/04/25) - Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../1072/Week11, 05_02 LSA.html">
+            
+                <a href="../1072/Week11, 05_02 LSA.html">
+            
+                    
+                    Week 11(2019/05/02) - 虛擬化技術 KVM/Qemu, LXD , LXC
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.9" data-path="../1072/Week12, 05_09 LSA.html">
+            
+                <a href="../1072/Week12, 05_09 LSA.html">
+            
+                    
+                    Week 12(2019/05/09) - 資訊安全
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.10" data-path="../1072/Week13, 05_16 LSA.html">
+            
+                <a href="../1072/Week13, 05_16 LSA.html">
+            
+                    
+                    Week 13(2019/05/16) - 備份與自動化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.11" data-path="../1072/Week14, 05_23 LSA.html">
+            
+                <a href="../1072/Week14, 05_23 LSA.html">
+            
+                    
+                    Week 14(2019/05/23) - 自動部署、自動測試
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.12" data-path="../1072/Week15, 05_30 LSA.html">
+            
+                <a href="../1072/Week15, 05_30 LSA.html">
+            
+                    
+                    Week 15(2019/05/30) - 自動測試、Linux Asynchronous
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.13" data-path="../1072/Week18,  06_20 LSA final.html">
+            
+                <a href="../1072/Week18,  06_20 LSA final.html">
+            
+                    
+                    Week 18(2019/06/20) - 期末專題報告
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    1071 LSA
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.3.1" data-path="Week1, 9_20 LSA.html">
+            
+                <a href="Week1, 9_20 LSA.html">
+            
+                    
+                    Week 01(2018/09/20) - Linux Basic
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="Week2, 9_27 LSA.html">
+            
+                <a href="Week2, 9_27 LSA.html">
+            
+                    
+                    Week 02(2018/09/27) - OpenSource Intro
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="Week3, 10_4 LSA.html">
+            
+                <a href="Week3, 10_4 LSA.html">
+            
+                    
+                    Week 03(2018/10/04) - DISK
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="Week4, 10_11 LSA.html">
+            
+                <a href="Week4, 10_11 LSA.html">
+            
+                    
+                    Week 04(2018/10/11) - FHS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="Week5, 10_18 LSA.html">
+            
+                <a href="Week5, 10_18 LSA.html">
+            
+                    
+                    Week 05(2018/10/18) - 檔案權限 / FHS / 連線
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="Week6, 10_25 LSA.html">
+            
+                <a href="Week6, 10_25 LSA.html">
+            
+                    
+                    Week 06(2018/10/25) - Services (web/ftp/ssh/scp...)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="Week7, 11_1 LSA.html">
+            
+                <a href="Week7, 11_1 LSA.html">
+            
+                    
+                    Week 07(2018/11/01) - Services (nginx/rsync/crontab)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.8" data-path="Week8, 11_8 LSA.html">
+            
+                <a href="Week8, 11_8 LSA.html">
+            
+                    
+                    Week 08(2018/11/08) - Nginx and Apache + OSI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.9" data-path="Week9, 11_5 LSA.html">
+            
+                <a href="Week9, 11_5 LSA.html">
+            
+                    
+                    Week 09(2018/11/15) - Vsftpd
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.10" data-path="Week10, 11_22 LSA.html">
+            
+                <a href="Week10, 11_22 LSA.html">
+            
+                    
+                    Week 10(2018/11/22) - OSI
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.11" data-path="Week11, 11_29 LSA.html">
+            
+                <a href="Week11, 11_29 LSA.html">
+            
+                    
+                    Week 11(2018/11/29) - iptables I
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.12" data-path="Week12, 12_6 LSA.html">
+            
+                <a href="Week12, 12_6 LSA.html">
+            
+                    
+                    Week 12(2018/12/06) - iptables II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.13" data-path="Week13, 12_13 LSA midterm.html">
+            
+                <a href="Week13, 12_13 LSA midterm.html">
+            
+                    
+                    Week 13(2018/12/13) - Midterm
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.14" data-path="Week14, 12_20 LSA.html">
+            
+                <a href="Week14, 12_20 LSA.html">
+            
+                    
+                    Week 14(2018/12/20) - 開機執行 hint
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.15" data-path="Week15, 12_20 LSA.html">
+            
+                <a href="Week15, 12_20 LSA.html">
+            
+                    
+                    Week 15(2018/12/27) - RaspberryPi I
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.16" data-path="Week16, 12_27 LSA.html">
+            
+                <a href="Week16, 12_27 LSA.html">
+            
+                    
+                    Week 16(2019/01/03) - RaspberryPi II + Mid 解答
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.17" data-path="Week17, 1_10 LSA Final.html">
+            
+                <a href="Week17, 1_10 LSA Final.html">
+            
+                    
+                    Week 17(2019/01/10) - 期末報告
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    1062 LSA
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../1062/Week-01-Web-Servers.html">
+            
+                <a href="../1062/Week-01-Web-Servers.html">
+            
+                    
+                    Week 01(2018/03/08) - Web Servers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../1062/Week-01-Linux-basic.html">
+            
+                <a href="../1062/Week-01-Linux-basic.html">
+            
+                    
+                    Week 01(2018/03/08) - Linux Basic
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../1062/Week-02.md">
+            
+                <span>
+            
+                    
+                    Week 02(2018/03/15) - Misc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../1062/Week-03.html">
+            
+                <a href="../1062/Week-03.html">
+            
+                    
+                    Week 03(2018/03/22) - Misc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../1062/Week-03.html">
+            
+                <a href="../1062/Week-03.html">
+            
+                    
+                    Week 03(2018/03/22) - Other Shell
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../1062/Week-04.html">
+            
+                <a href="../1062/Week-04.html">
+            
+                    
+                    Week 04(2018/03/29) - Network and Security
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="../1062/Week-05.html">
+            
+                <a href="../1062/Week-05.html">
+            
+                    
+                    Week 05(2018/04/12)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.8" data-path="../1062/Week-06.html">
+            
+                <a href="../1062/Week-06.html">
+            
+                    
+                    Week 06(2018/04/19) - Docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.9" data-path="../1062/Week-07.html">
+            
+                <a href="../1062/Week-07.html">
+            
+                    
+                    Week 07(2018/04/26) - DockerFile
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.10" data-path="../1062/Week-08.html">
+            
+                <a href="../1062/Week-08.html">
+            
+                    
+                    Week 08(2018/05/03)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.11" data-path="../1062/Week-09.html">
+            
+                <a href="../1062/Week-09.html">
+            
+                    
+                    Week 09(2018/05/10)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.12" data-path="../1062/Week-10.html">
+            
+                <a href="../1062/Week-10.html">
+            
+                    
+                    Week 10(2018/05/17) - KVM and XEN
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.13" data-path="../1062/Week-11-backup.html">
+            
+                <a href="../1062/Week-11-backup.html">
+            
+                    
+                    Week 11(2018/05/24) - Backup
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.14" data-path="../1062/Week-12.html">
+            
+                <a href="../1062/Week-12.html">
+            
+                    
+                    Week 12(2018/05/31)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.15" data-path="../1062/Week-13.html">
+            
+                <a href="../1062/Week-13.html">
+            
+                    
+                    Week 13(2018/06/07)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.16" data-path="../1062/Week-14.html">
+            
+                <a href="../1062/Week-14.html">
+            
+                    
+                    Week 14(2018/06/14)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    1061 LSA
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../1061/Week-2-自由軟體-安裝-FHS-基本指令.html">
+            
+                <a href="../1061/Week-2-自由軟體-安裝-FHS-基本指令.html">
+            
+                    
+                    Week 02 - 自由軟體 / 安裝 / FHS / 基本指令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../1061/Week-4-常用指令.html">
+            
+                <a href="../1061/Week-4-常用指令.html">
+            
+                    
+                    Week 04 - 常用指令
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../1061/Week-5-套件管理-遠端登入-Web-Server.html">
+            
+                <a href="../1061/Week-5-套件管理-遠端登入-Web-Server.html">
+            
+                    
+                    Week 05 - 套件管理 / 遠端登入 / Web Server
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../1061/week-7-(2017_11_1">
+            
+                <span>
+            
+                    
+                    Week 07 - 套件打包 / 遠端監控 / Web Server
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../1061/week-8-(2017_11_08">
+            
+                <span>
+            
+                    
+                    Week 08 - https & samba
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../1061/week-9-(2017_11_15">
+            
+                <span>
+            
+                    
+                    Week 09 - mail
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../1061/week-10-(2017_11_22">
+            
+                <span>
+            
+                    
+                    Week 10 - mail / TCP/IP / 網路規劃
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" data-path="../1061/week-11-(2017_11_29">
+            
+                <span>
+            
+                    
+                    Week 11 - iptables I
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9" data-path="../1061/Week-12.html">
+            
+                <a href="../1061/Week-12.html">
+            
+                    
+                    Week 12 - iptables II
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.10" data-path="../1061/Week-13-(2017_12_13">
+            
+                <span>
+            
+                    
+                    Week 13 - 資安
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.11" data-path="../1061/Week-14-(2017_12_20">
+            
+                <span>
+            
+                    
+                    Week 14 - Raspberry Pi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.12" data-path="../1061/Week-16-(2017_01_03">
+            
+                <span>
+            
+                    
+                    Week 16
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    104
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../1041/Week-13-資訊安全.html">
+            
+                <a href="../1041/Week-13-資訊安全.html">
+            
+                    
+                    1041 LSA Week 13 資訊安全
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../1041/Week-12-Raspberry-pi.html">
+            
+                <a href="../1041/Week-12-Raspberry-pi.html">
+            
+                    
+                    1041 LSA Week 12 Raspberry pi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../1041/Week-11-Raspberry-pi.html">
+            
+                <a href="../1041/Week-11-Raspberry-pi.html">
+            
+                    
+                    1041 LSA Week 11 Raspberry pi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../1041/Week-10-VCS.html">
+            
+                <a href="../1041/Week-10-VCS.html">
+            
+                    
+                    1041 LSA Week 10 VCS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../1041/Week-9-Network-Design.html">
+            
+                <a href="../1041/Week-9-Network-Design.html">
+            
+                    
+                    1041 LSA Week 9 Network Design
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../1041/Week-8-Samba.html">
+            
+                <a href="../1041/Week-8-Samba.html">
+            
+                    
+                    1041 LSA Week 8 Samba
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../1041/Week7.html">
+            
+                <a href="../1041/Week7.html">
+            
+                    
+                    1041 LSA Week 7
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="../1041/Week5.html">
+            
+                <a href="../1041/Week5.html">
+            
+                    
+                    1041 LSA Week 5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.9" data-path="../1041/Week4-Command-line.html">
+            
+                <a href="../1041/Week4-Command-line.html">
+            
+                    
+                    1041 LSA Week 4 Command line
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.10" data-path="../1041/Week-3-OSS-History,-FHS.html">
+            
+                <a href="../1041/Week-3-OSS-History,-FHS.html">
+            
+                    
+                    1041 LSA Week 3 OSS History, FHS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.11" data-path="../1041/Week-2-Install-Ubuntu,-FHS.html">
+            
+                <a href="../1041/Week-2-Install-Ubuntu,-FHS.html">
+            
+                    
+                    1041 LSA Week 2 Install Ubuntu, FHS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.12" data-path="../1041/Week-1.html">
+            
+                <a href="../1041/Week-1.html">
+            
+                    
+                    1041 LSA Week 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    103
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../1032/Week-10-Minecraft.html">
+            
+                <a href="../1032/Week-10-Minecraft.html">
+            
+                    
+                    1032 LSA Week 10 Minecraft
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../1032/Week-9-Samba-three-way-handshake-iptable.html">
+            
+                <a href="../1032/Week-9-Samba-three-way-handshake-iptable.html">
+            
+                    
+                    1032 LSA Week 9 Samba, three-way handshake, iptable
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../1032/Week-8-FTP-TCPIP-iptable.html">
+            
+                <a href="../1032/Week-8-FTP-TCPIP-iptable.html">
+            
+                    
+                    1032 LSA Week 8 FTP, TCP/IP, iptable
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="../1032/Week-6-Nagios-aptitude-top-iftop-iotop.html">
+            
+                <a href="../1032/Week-6-Nagios-aptitude-top-iftop-iotop.html">
+            
+                    
+                    1032 LSA Week 6 Nagios, aptitude, top, iftop, iotop
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="../1032/Week-5-Virtual-host-Apache-lighttpd.html">
+            
+                <a href="../1032/Week-5-Virtual-host-Apache-lighttpd.html">
+            
+                    
+                    1032 LSA Week 5 Virtual host, Apache, lighttpd
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="../1032/Week-4-LAMP-Drupal-and-other-HTTPd.html">
+            
+                <a href="../1032/Week-4-LAMP-Drupal-and-other-HTTPd.html">
+            
+                    
+                    1032 LSA Week 4 LAMP, Drupal, and other HTTPd
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.7" data-path="../1032/Week-3-4-Package-Management-Command-line.html">
+            
+                <a href="../1032/Week-3-4-Package-Management-Command-line.html">
+            
+                    
+                    1032 LSA Week 3 Package Management & Command line
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8" data-path="../1032/Week-2-3-Disk-Partitioning-and-FHS.html">
+            
+                <a href="../1032/Week-2-3-Disk-Partitioning-and-FHS.html">
+            
+                    
+                    1032 LSA Week 2 Disk Partitioning and FHS
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" >
+            
+                <span>
+            
+                    
+                    102
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../102/OSSG-MoPad-RaspberryPi.html">
+            
+                <a href="../102/OSSG-MoPad-RaspberryPi.html">
+            
+                    
+                    OSSG MoPad Link (RaspberryPi)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="../102/1022-OSA-Mopad.html">
+            
+                <a href="../102/1022-OSA-Mopad.html">
+            
+                    
+                    1022 OSA Mopad Link
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="../102/1021-LSA-Mopad.html">
+            
+                <a href="../102/1021-LSA-Mopad.html">
+            
+                    
+                    1021 LSA Mopad Link
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="../102/1021-OSA-Mopad.html">
+            
+                <a href="../102/1021-OSA-Mopad.html">
+            
+                    
+                    1021 OSA Mopad Link
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" >
+            
+                <span>
+            
+                    
+                    101
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../101/1012-OSA-Mopad.html">
+            
+                <a href="../101/1012-OSA-Mopad.html">
+            
+                    
+                    1012 OSA Mopad Link
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../101/1011-OSA-Mopad.html">
+            
+                <a href="../101/1011-OSA-Mopad.html">
+            
+                    
+                    1011 OSA Mopad Link
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" >
+            
+                <span>
+            
+                    
+                    其他
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../others/compile-kernel.html">
+            
+                <a href="../others/compile-kernel.html">
+            
+                    
+                    編譯 kernel
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Week 01(2018/09/20) - Linux Basic</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="week1-920-lsa">Week1, 9/20 LSA</h1>
+<h2 id="&#x8AB2;&#x524D;&#x9700;&#x6C42;">&#x8AB2;&#x524D;&#x9700;&#x6C42;</h2>
+<p>&#x8ACB;&#x5404;&#x4F4D;&#x540C;&#x5B78;&#x5728;&#x4E0A;&#x8AB2;&#x524D;&#xFF0C;&#x5148;&#x628A; <code>virtualbox</code> &#x8207; <code>ubuntu&#x7684;iso&#x6A94;</code> &#x5148;&#x4E0B;&#x8F09;&#x81F3;&#x672C;&#x6A5F;&#x3002;</p>
+<ul>
+<li><a href="https://www.virtualbox.org/" target="_blank">virtual box</a></li>
+<li><a href="https://www.ubuntu-tw.org/modules/tinyd0/" target="_blank">ubuntu</a></li>
+</ul>
+<p>ubuntu&#x8ACB;&#x9078;&#x64C7; <code>Ubuntu &#x684C;&#x9762;&#x7248;&#x672C;</code>,<code>16.04 LTS&#xFF08;&#x652F;&#x63F4;&#x81F3; 2021 &#x5E74; 04 &#x6708;&#xFF09;</code></p>
+<p>&#x4E5F;&#x8ACB;&#x5404;&#x4F4D;&#x540C;&#x5B78;&#x53EF;&#x4EE5;&#x651C;&#x5E36;&#x96A8;&#x8EAB;&#x789F;&#xFF0C;&#x7576;&#x5929;&#x4E0A;&#x8AB2;&#x53EF;&#x4EE5;&#x8207;&#x5176;&#x4ED6;&#x540C;&#x5B78;&#x50B3;&#x6A94;&#x6848;&#x3002;&#x5982;&#x679C;&#x5168;&#x90E8;&#x4EBA;&#x90FD;&#x5728;&#x7576;&#x5929;&#x624D;&#x4E0B;&#x8F09;&#xFF0C;&#x7DB2;&#x8DEF;&#x6703;&#x975E;&#x5E38;&#x6162;&#x3002;</p>
+<p><a href="https://t.me/joinchat/GFtBzlGAoyqo1Dg7XRdVsw" target="_blank">&#x8AB2;&#x5802; telegram &#x7FA4;&#x7D44;</a></p>
+<p>&#x4EE5;&#x4E0B;&#x8ACB;&#x8F38;&#x5165;&#x59D3;&#x540D;</p>
+<p>105213028 &#x4E01;&#x7FCA;&#x8ED2; &#x8CC7;&#x7BA1;&#x4E09;
+107213506 &#x5F35;&#x3000;&#x771F; &#x8CC7;&#x7BA1;&#x78A9;&#x4E00; 
+106213017 &#x8521;&#x4F73;&#x8ED2; &#x8CC7;&#x7BA1;&#x4E8C;
+106213019 &#x8607;&#x7F8E;&#x5A77; &#x8CC7;&#x7BA1;&#x4E8C;
+107213517 &#x694A;&#x5B9C;&#x660E; &#x8CC7;&#x7BA1;&#x78A9;&#x4E00;
+106407023 &#x9673;&#x4E8E;&#x771F; &#x6559;&#x653F;&#x4E8C;
+104321070 &#x912D;&#x82B7;&#x541B; &#x8CC7;&#x5DE5;&#x56DB;
+104321060 &#x4F55;&#x66C9;&#x5029; &#x8CC7;&#x5DE5;&#x56DB;
+104321051 &#x6797;&#x7152;&#x661F; &#x8CC7;&#x5DE5;&#x56DB;
+104321003 &#x8B1D;&#x842C;&#x9716; &#x8CC7;&#x5DE5;&#x56DB;
+104321002 &#x4F55;&#x5EFA;&#x5B8F; &#x8CC7;&#x5DE5;&#x56DB;
+105213007 &#x738B;&#x3000;&#x5A01; &#x8CC7;&#x7BA1;&#x4E09;
+104321024 &#x8521;&#x65FB;&#x52F3; &#x8CC7;&#x5DE5;&#x56DB;
+104321059 &#x9322;&#x8A60;&#x6069; &#x8CC7;&#x5DE5;&#x56DB;
+104321067 &#x6881;&#x674F;&#x5152; &#x8CC7;&#x5DE5;&#x56DB;
+106321009 &#x7F85;&#x7F61;&#x5146; &#x8CC7;&#x5DE5;&#x4E8C;
+104321062 &#x738B;&#x5B50;&#x4F73; &#x8CC7;&#x5DE5;&#x56DB;
+106213014 &#x6B50;&#x82B7;&#x6B23; &#x8CC7;&#x7BA1;&#x4E8C;
+106213022 &#x838A;&#x8A60;&#x5A77; &#x8CC7;&#x7BA1;&#x4E8C;
+105213019 &#x8A31;&#x5BB6;&#x744B; &#x8CC7;&#x7BA1;&#x4E09;
+105213004 &#x9673;&#x51A0;&#x745C; &#x8CC7;&#x7BA1;&#x4E09;
+107213511 &#x5289;&#x5609;&#x745C; &#x8CC7;&#x7BA1;&#x78A9;&#x4E00;</p>
+<h1 id="920">9/20</h1>
+<p>&#x66F4;&#x65B0;&#x8EDF;&#x9AD4;&#x6E90;:</p>
+<blockquote>
+<p>apt-get update
+:::info
+&#x51FA;&#x73FE;&#x6B0A;&#x9650;&#x4E0D;&#x7B26;&#x8A18;&#x5F97;&#x52A0;&#x4E0A; sudo
+:::</p>
+</blockquote>
+<p>&#x6E05;&#x9664;&#x9801;&#x9762;:</p>
+<blockquote>
+<p>clear
+ctrl + L</p>
+</blockquote>
+<p>&#x5B89;&#x88DD; vim (&#x6587;&#x5B57;&#x7DE8;&#x8F2F;&#x5668;):</p>
+<blockquote>
+<p>sudo apt-get install vim
+(1.8&#x7248;&#x672C;) apt-get &#x6216; apt
+&#x5B89;&#x88DD;&#x5957;&#x4EF6;
+sudo apt-get install &lt; package-name &gt;</p>
+</blockquote>
+<p>&#x5217;&#x51FA;&#x73FE;&#x5728;&#x76EE;&#x9304;&#x4E0B;&#x7684;&#x6240;&#x6709;&#x6A94;&#x6848;</p>
+<blockquote>
+<p>ls</p>
+</blockquote>
+<p>&#x8F49;&#x5230;&#x76EE;&#x9304;&#x4F4D;&#x7F6E;</p>
+<blockquote>
+<p>cd &lt; path &gt;</p>
+</blockquote>
+<p>&#x5EFA;&#x7ACB;&#x6A94;&#x6848;</p>
+<blockquote>
+<p>touch &lt; file-name &gt;</p>
+</blockquote>
+<p>&#x986F;&#x793A;&#x6A94;&#x6848;&#x5167;&#x5BB9;</p>
+<blockquote>
+<p>cat &lt; file &gt;</p>
+</blockquote>
+<hr>
+<h3 id="vim-vi-improved-&#x4E0B;&#x6307;&#x4EE4;&#x7528;&#x6CD5;">vim (Vi IMproved) &#x4E0B;&#x6307;&#x4EE4;&#x7528;&#x6CD5;</h3>
+<p>&#x6253;&#x958B;&#x6A94;&#x6848; (&#x5982;&#x679C;&#x6C92;&#x6709;&#x6A94;&#x6848;, &#x5B58;&#x6A94;&#x7684;&#x8A71;&#x6703;&#x65B0;&#x589E;&#x6A94;&#x6848;)</p>
+<blockquote>
+<p>vim &lt; file-name &gt; (&#x53EF;&#x4EE5;&#x7528;tab&#x88DC;&#x9F4A;&#x6A94;&#x6848;&#x540D;&#x7A31;)</p>
+</blockquote>
+<pre><code class="lang-vim">i -&gt; &#x9032;&#x5165; insert(&#x7DE8;&#x8F2F;) &#x6A21;&#x5F0F;
+&#x5728;&#x5176;&#x4ED6;&#x6A21;&#x5F0F;&#x4E2D;&#x6309;&#x4E0B; esc -&gt; &#x9000;&#x56DE;&#x4E00;&#x822C;&#x6A21;&#x5F0F;
+
+: &#x4E0B;&#x7684;&#x6307;&#x4EE4;
+w -&gt; write
+q -&gt; quit
+&#x6307;&#x4EE4;&#x53EF;&#x5408;&#x4F75;&#x4F7F;&#x7528; &#x5148;&#x5BEB;&#x5165;&#x518D;&#x96E2;&#x958B; -&gt;:wq
+</code></pre>
+<ul>
+<li><code>i</code> =&gt; &#x958B;&#x555F;&#x8F38;&#x5165;&#x6A21;&#x5F0F;</li>
+<li><code>esc</code> =&gt; &#x96E2;&#x958B;&#x8F38;&#x5165;&#x6A21;&#x5F0F;</li>
+<li><code>/</code> =&gt; &#x5F8C;&#x9762;&#x52A0;&#x5165;&#x641C;&#x5C0B;&#x8A72;&#x6A94;&#x6848;&#x7684;&#x5B57;&#x5143;&#x6216;&#x5B57;&#x4E32;</li>
+<li><code>dd</code> =&gt; &#x522A;&#x9664;&#x672C;&#x884C;</li>
+<li><p><code>normal mode</code> + <code>:</code> </p>
+<ul>
+<li><p>&#x5F8C;&#x9762;&#x52A0;&#x5165;&#x8981;&#x57F7;&#x884C;&#x7684;&#x52D5;&#x4F5C;</p>
+<ol>
+<li><code>q</code> &#x96E2;&#x958B;</li>
+<li><code>q!</code> &#x5F37;&#x5236;&#x96E2;&#x958B;</li>
+<li><p><code>wq</code> &#x5132;&#x5B58;&#x5F8C;&#x96E2;&#x958B;</p>
+</li>
+<li><p><code>set nu</code> &#x986F;&#x793A;&#x884C;&#x6578; </p>
+<ul>
+<li><img src="https://i.imgur.com/r8sd0mq.png" alt=""></li>
+</ul>
+</li>
+<li><code>w !sudo tee %</code> <strong>&#x9032;&#x5165;&#x6A94;&#x6848;&#x5FD8;&#x8A18;sudo&#x6642;&#x53EF;&#x4EE5;&#x5728;&#x88E1;&#x9762;sudo&#x53D6;&#x5F97;&#x5BEB;&#x5165;&#x4FEE;&#x6539;&#x7684;&#x6B0A;&#x9650;</strong></li>
+<li><code>!</code> &#x53EF;&#x4EE5;&#x57F7;&#x884C; bash &#x6307;&#x4EE4; </li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p>ubuntu &#x4E2D;&#x6587;&#x8F38;&#x5165;&#x6CD5; <a href="http://blog.xuite.net/yh96301/blog/342227672-Ubuntu+16.0.4%E6%96%B0%E5%A2%9E%E4%B8%AD%E6%96%87%E8%BC%B8%E5%85%A5%E6%B3%95-%E6%96%B0%E9%85%B7%E9%9F%B3%E8%BC%B8%E5%85%A5%E6%B3%95" target="_blank">&#x9EDE;&#x6211;</a></p>
+<ul>
+<li>&#x5176;&#x4ED6;&#x8F38;&#x5165;&#x6CD5;&#xFF08;&#x901F;&#x6210;/&#x5009;&#x9821;&#xFF09;<pre><code>sudo apt-get install ibus-table-quick5
+sudo apt-get install ibus-table-cangjie5
+</code></pre>&#x5176;&#x4ED6;&#x8F38;&#x5165;&#x6CD5;(&#x7121;&#x8766;&#x7C73;)<pre><code>sudo apt install fcitx-table-boshiamy
+</code></pre></li>
+</ul>
+<p>System Settings &gt; Language Support &gt; Keyboard Input Method : IBus</p>
+<blockquote>
+<p>sudo apt install ibus-chewing ibus-zhuyin
+logout and login</p>
+</blockquote>
+<p>&#x6240;&#x5728;&#x76EE;&#x9304;&#x5C64;</p>
+<blockquote>
+<p><code>pwd</code>  </p>
+</blockquote>
+<p>&#x56DE;&#x5230;&#x4E0A;&#x4E00;&#x5C64;</p>
+<blockquote>
+<p><code>cd ..</code> </p>
+</blockquote>
+<p>&#x6A94;&#x6848;&#x8207;&#x76EE;&#x9304;&#x7684;&#x6AA2;&#x8996;</p>
+<blockquote>
+<p><code>ls -&lt; args &gt;</code></p>
+<blockquote>
+<p> <code>-l</code> &#x8A73;&#x7D30;&#x5217;&#x51FA;&#x6A94;&#x6848;
+ <code>-la</code> &#x6240;&#x6709;&#x6A94;&#x6848;&#x5217;&#x51FA;&#x4F86;&#xFF08;&#x5305;&#x542B;&#x8A2D;&#x5B9A;&#x6A94;&#xFF09;
+ <code>-lah</code> &#x5C07;&#x8F38;&#x51FA;&#x7684;&#x8CC7;&#x8A0A;&#x4EE5;&#x6BD4;&#x8F03;&#x5BB9;&#x6613;&#x95B1;&#x8B80;&#x7684;&#x683C;&#x5F0F;&#x5448;&#x73FE;
+<code>&lt; file-name &gt;</code> &#x53EF;&#x76F4;&#x63A5;&#x770B;&#x6A94;&#x6848;&#x5167;&#x5BB9;</p>
+</blockquote>
+</blockquote>
+<p>&#x7DE8;&#x8F2F; <code>.vimrc</code> &#x53EF;&#x4EE5;&#x66F4;&#x6539;vim&#x7684;&#x8A2D;&#x5B9A;(home&#x76EE;&#x9304;&#x4E0B;)</p>
+<blockquote>
+<p>vim ~/.vimrc</p>
+<ul>
+<li><code>set number</code>  &quot;&#x986F;&#x793A;&#x884C;&#x865F;&quot;</li>
+<li><code>set cursorline</code> &quot;&#x5E95;&#x7DAB;&quot;</li>
+<li><code>set cindent</code> &quot;&#x81EA;&#x52D5;&#x7E2E;&#x6392;</li>
+</ul>
+</blockquote>
+<p>:::info 
+<a href="http://wiki.csie.ncku.edu.tw/vim/vimrc#&#x4ECB;&#x9762;&#x512A;&#x5316;" target="_blank">&#x5176;&#x4ED6;&#x8A2D;&#x5B9A;&#x53C3;&#x8003; - ncku csie wiki</a>
+:::</p>
+<p>&#x522A;&#x9664;&#x6A94;&#x6848;</p>
+<blockquote>
+<p>rm &lt; file-name &gt;</p>
+</blockquote>
+<p>&#x5F3A;&#x5236;&#x905E;&#x8FF4;&#x522A;&#x9664;</p>
+<blockquote>
+<p>rm -r &lt;/dir&gt; </p>
+<ul>
+<li>-r recursive</li>
+</ul>
+</blockquote>
+<p>&#x5EFA;&#x7ACB;&#x8CC7;&#x6599;&#x593E;</p>
+<blockquote>
+<p>mkdir &lt;/dir&gt; </p>
+</blockquote>
+<p>&#x79FB;&#x52D5;&#x6A94;&#x6848;(&#x66F4;&#x6539;&#x540D;&#x7A31;)</p>
+<blockquote>
+<p>mv <old file-name=""> <new file-name=""> </new></old></p>
+</blockquote>
+<p>&#x66F4;&#x6539;&#x6A94;&#x6848;&#x4F4D;&#x7F6E;</p>
+<blockquote>
+<p>mv <file-name> &lt;&#x8CC7;&#x6599;&#x593E;&gt; </file-name></p>
+</blockquote>
+<p>process &#x7684;&#x57F7;&#x884C;&#x72C0;&#x614B;(&#x6B63;&#x5728;&#x57F7;&#x884C;&#x7684;program&#x53EB;&#x505A;process)</p>
+<blockquote>
+<p>top
+cat /etc/apt</p>
+</blockquote>
+<ul>
+<li><a href="https://zh.wikipedia.org/wiki/X.Org_Server" target="_blank">xorg</a></li>
+<li><a href="https://zh.wikipedia.org/zh-tw/Compiz" target="_blank">compiz</a></li>
+</ul>
+<p>&#x67E5;&#x8A62;&#x6307;&#x4EE4;</p>
+<blockquote>
+<p>man &lt;&#x6307;&#x4EE4;&gt;</p>
+</blockquote>
+<p>&#x627E;&#x51FA;&#x8DDF;&#x9019;&#x6307;&#x4EE4;&#x76F8;&#x95DC;&#x7684;&#x6307;&#x4EE4;</p>
+<blockquote>
+<p>apt search &lt;&#x6307;&#x4EE4;&gt; </p>
+</blockquote>
+<p>&#x627E;&#x51FA;&#x8DDF;&#x9019;&#x5957;&#x4EF6;&#x76F8;&#x95DC;&#x7684;&#x5957;&#x4EF6; briefly</p>
+<blockquote>
+<p>apt-cache search &lt; package name &gt;</p>
+</blockquote>
+<p>&#x986F;&#x793A;&#x5B8C;&#x6574;&#x7684;&#x5957;&#x4EF6;&#x8CC7;&#x6599;</p>
+<blockquote>
+<p>apt-cache show &lt; package name &gt; </p>
+</blockquote>
+<p>&#x986F;&#x793A;&#x5957;&#x4EF6;&#x4F86;&#x6E90;</p>
+<blockquote>
+<p>apt-cache policy vim
+<img src="https://i.imgur.com/0hjiqTp.png" alt=""></p>
+</blockquote>
+<p>&#x8EDF;&#x9AD4;&#x4F86;&#x6E90;&#x4F4D;&#x7F6E;</p>
+<blockquote>
+<p>/etc/apt/sources.list</p>
+</blockquote>
+<p>16.04&#x5728;&#x8A2D;&#x5B9A;&#x9762;&#x677F;&#x4E2D;
+18.04&#x9EDE;&#x64CA;&#x5DE6;&#x4E0B;&#x89D2;<code>&#x986F;&#x793A;&#x61C9;&#x7528;&#x7A0B;&#x5F0F;</code>&#x7684;&#x5716;&#x793A;</p>
+<p>&#x6216;&#x662F;&#x7528;&#x6307;&#x4EE4;&#x76F4;&#x63A5;&#x4FEE;&#x6539;
+<code>sudo sed -i &apos;s/tw.archive.ubuntu.com/ftp.ubuntu-tw.net/g&apos; /etc/apt/sources.list</code></p>
+<p><code>.&lt;name&gt;</code> &#x958B;&#x982D;&#x90FD;&#x662F;&#x96B1;&#x5F62;&#x6A94;&#x6848;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+                <a href="Week2, 9_27 LSA.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Week 02(2018/09/27) - OpenSource Intro">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Week 01(2018/09/20) - Linux Basic","level":"1.3.1","depth":2,"next":{"title":"Week 02(2018/09/27) - OpenSource Intro","level":"1.3.2","depth":2,"path":"1071/Week2, 9_27 LSA.md","ref":"1071/Week2, 9_27 LSA.md","articles":[]},"previous":{"title":"1071 LSA","level":"1.3","depth":1,"ref":"","articles":[{"title":"Week 01(2018/09/20) - Linux Basic","level":"1.3.1","depth":2,"path":"1071/Week1, 9_20 LSA.md","ref":"1071/Week1, 9_20 LSA.md","articles":[]},{"title":"Week 02(2018/09/27) - OpenSource Intro","level":"1.3.2","depth":2,"path":"1071/Week2, 9_27 LSA.md","ref":"1071/Week2, 9_27 LSA.md","articles":[]},{"title":"Week 03(2018/10/04) - DISK","level":"1.3.3","depth":2,"path":"1071/Week3, 10_4 LSA.md","ref":"1071/Week3, 10_4 LSA.md","articles":[]},{"title":"Week 04(2018/10/11) - FHS","level":"1.3.4","depth":2,"path":"1071/Week4, 10_11 LSA.md","ref":"1071/Week4, 10_11 LSA.md","articles":[]},{"title":"Week 05(2018/10/18) - 檔案權限 / FHS / 連線","level":"1.3.5","depth":2,"path":"1071/Week5, 10_18 LSA.md","ref":"1071/Week5, 10_18 LSA.md","articles":[]},{"title":"Week 06(2018/10/25) - Services (web/ftp/ssh/scp...)","level":"1.3.6","depth":2,"path":"1071/Week6, 10_25 LSA.md","ref":"1071/Week6, 10_25 LSA.md","articles":[]},{"title":"Week 07(2018/11/01) - Services (nginx/rsync/crontab)","level":"1.3.7","depth":2,"path":"1071/Week7, 11_1 LSA.md","ref":"1071/Week7, 11_1 LSA.md","articles":[]},{"title":"Week 08(2018/11/08) - Nginx and Apache + OSI","level":"1.3.8","depth":2,"path":"1071/Week8, 11_8 LSA.md","ref":"1071/Week8, 11_8 LSA.md","articles":[]},{"title":"Week 09(2018/11/15) - Vsftpd","level":"1.3.9","depth":2,"path":"1071/Week9, 11_5 LSA.md","ref":"1071/Week9, 11_5 LSA.md","articles":[]},{"title":"Week 10(2018/11/22) - OSI","level":"1.3.10","depth":2,"path":"1071/Week10, 11_22 LSA.md","ref":"1071/Week10, 11_22 LSA.md","articles":[]},{"title":"Week 11(2018/11/29) - iptables I","level":"1.3.11","depth":2,"path":"1071/Week11, 11_29 LSA.md","ref":"1071/Week11, 11_29 LSA.md","articles":[]},{"title":"Week 12(2018/12/06) - iptables II","level":"1.3.12","depth":2,"path":"1071/Week12, 12_6 LSA.md","ref":"1071/Week12, 12_6 LSA.md","articles":[]},{"title":"Week 13(2018/12/13) - Midterm","level":"1.3.13","depth":2,"path":"1071/Week13, 12_13 LSA midterm.md","ref":"1071/Week13, 12_13 LSA midterm.md","articles":[]},{"title":"Week 14(2018/12/20) - 開機執行 hint","level":"1.3.14","depth":2,"path":"1071/Week14, 12_20 LSA.md","ref":"1071/Week14, 12_20 LSA.md","articles":[]},{"title":"Week 15(2018/12/27) - RaspberryPi I","level":"1.3.15","depth":2,"path":"1071/Week15, 12_20 LSA.md","ref":"1071/Week15, 12_20 LSA.md","articles":[]},{"title":"Week 16(2019/01/03) - RaspberryPi II + Mid 解答","level":"1.3.16","depth":2,"path":"1071/Week16, 12_27 LSA.md","ref":"1071/Week16, 12_27 LSA.md","articles":[]},{"title":"Week 17(2019/01/10) - 期末報告","level":"1.3.17","depth":2,"path":"1071/Week17, 1_10 LSA Final.md","ref":"1071/Week17, 1_10 LSA Final.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"1071/Week1, 9_20 LSA.md","mtime":"2020-01-12T03:51:01.900Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-01-12T03:51:47.418Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
